@@ -1,0 +1,9 @@
+.btn_white {
+    color: white;
+    text-decoration: none;
+    border: 4px solid white;
+    padding: 26px 43px;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    display: inline-block;
+}

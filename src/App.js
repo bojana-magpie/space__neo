@@ -1,15 +1,15 @@
 import './App.css';
 import HeaderWrapper from "./Components/Header/HeaderWrapper";
 import Banner from "./Components/Banner/Banner";
-import Button from "./Components/Common/Button/Button";
+import React from "react";
+import GetInvolved from "./Components/GetInvolved/GetInvolved";
 
 function App() {
   return (
     <div className="App container">
         <HeaderWrapper/>
-        <Banner>
-            <Button title="WATCH THE REPLAY" link="watchthereplay" shape="white"/>
-        </Banner>
+        <Banner/>
+        <GetInvolved/>
     </div>
   );
 }
