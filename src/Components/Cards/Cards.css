@@ -1,0 +1,22 @@
+.cards_white_section {
+    width: 1192px;
+    background-color: var(--grey);
+    color: var(--black);
+    padding: 100px 126px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards_flex {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.btn_black_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
