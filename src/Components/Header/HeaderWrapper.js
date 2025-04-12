@@ -16,8 +16,8 @@ const HeaderWrapper = (props) => {
         <Header>
             <Logo/>
             <Menu>
-                { items.map((item) => {
-                    return (<MenuItem title={item.title} link={item.link}/>);
+                { items.map((item, index) => {
+                    return (<MenuItem key={index} title={item.title} link={item.link}/>);
                 })}
             </Menu>
         </Header>
