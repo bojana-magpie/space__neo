@@ -1,0 +1,11 @@
+.menu li {
+    display: inline;
+    font-weight: bold;
+    font-size: 1.125em;
+}
+
+.menu li a {
+    color: var(--white);
+    text-decoration: none;
+    margin-right: 2.90625em;
+}

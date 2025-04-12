@@ -7,13 +7,17 @@
 }
 
 body {
-    background-color: var(--black);
+    background-color: var(--grey);
     color: var(--white);
     font-family: "Open Sans", sans-serif;
 }
 
 .container {
-    width: 1275px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
+}
+
+h2 {
+
 }
