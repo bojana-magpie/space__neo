@@ -1,0 +1,27 @@
+.faq_div {
+    margin-right: 125px;
+    margin-left: 125px;
+    margin-bottom: 140px;
+}
+
+.h4_faq {
+    margin-top: -50px;
+    padding: 0;
+    margin-left: 125px;
+}
+
+h6 {
+    font-weight: 400;
+    color: white;
+    font-size: 34px;
+    letter-spacing: 3.4px;
+    margin-bottom: 30px;
+    margin-top: 70px;
+}
+
+.p_faq {
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 1.4px;
+    font-weight: 400;
+}

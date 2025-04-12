@@ -4,7 +4,7 @@ import Banner from "./Components/Banner/Banner";
 import React from "react";
 import GetInvolved from "./Components/GetInvolved/GetInvolved";
 import Cards from "./Components/Cards/Cards";
-import FAQ from "./Components/FAQ/Faq";
+import FAQSection from "./Components/FAQ/FAQSection";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         <Banner/>
         <GetInvolved/>
         <Cards/>
-        <FAQ/>
+        <FAQSection/>
     </div>
   );
 }
