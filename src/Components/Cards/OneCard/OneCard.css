@@ -3,8 +3,8 @@
     height: 631px;
     background-color: var(--white);
     position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
     margin-right: 40px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07)
 }
 
 .one_card:last-child {

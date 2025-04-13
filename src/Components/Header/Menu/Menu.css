@@ -3,6 +3,7 @@
     font-weight: bold;
     font-size: 1.125em;
     margin-right: 2.90625em;
+    font-family: "Open Sans Condensed", sans-serif;
 }
 
 .menu li:last-child {
@@ -14,6 +15,10 @@
     text-decoration: none;
 }
 
+.logo_image {
+    margin-left: 28px;
+}
+
 .menu {
-    margin-right: 6em;
+    margin-right: 28px;
 }

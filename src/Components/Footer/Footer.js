@@ -3,7 +3,9 @@ import "./Footer.css"
 
 const Footer = (props) => {
     return <footer className="footer">
-        {props.children}
+        <div className="footer_inner">
+            {props.children}
+        </div>
     </footer>
 }
 

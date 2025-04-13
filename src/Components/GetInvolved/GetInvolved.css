@@ -1,6 +1,5 @@
 .space_rocket_involved {
     height: 794px;
-    max-width: 1196px;
     margin: 124px auto;
     position: relative;
     background-size: cover;
@@ -8,8 +7,9 @@
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     overflow: hidden;
+    max-width: 1192px;
 }
 
 .overlay_text {
@@ -20,18 +20,18 @@
     font-weight: 400;
     color: rgba(255, 255, 255, 0.25);
     width: 100%;
-    margin-left: 0;
+    margin-left: -20px;
     margin-right: 0;
 }
 
 .info_box {
-    position: absolute;
     background-color: rgba(0, 40, 80, 0.5);
     padding: 30px;
     z-index: 2;
     width: 480px;
     height: 638px;
-    right: 120px;
+    margin-left: auto;
+    margin-right: 120px;
 }
 
 .p_infobox_1 {

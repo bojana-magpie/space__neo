@@ -1,6 +1,5 @@
 import React from 'react';
 import LogoImage from "../../../assets/Img/spaceneo_logo.svg";
-import "./Logo.css"
 
 const Logo = () => {
     return (

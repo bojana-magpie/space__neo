@@ -1,22 +1,20 @@
 .menu_footer li {
     display: inline;
-    font-weight: bold;
     font-size: 18px;
     letter-spacing: 1.8px;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: bold;
+    margin-right: 50px;
 }
 
 .menu_footer li:last-child {
-    font-weight: lighter;
     margin-right: 0;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: lighter;
 }
 
 .menu_footer li a {
     color: var(--black);
     text-decoration: none;
-    margin-right: 50px;
-}
-
-.menu_footer {
-    margin-right: 6em;
 }
 

@@ -1,6 +1,5 @@
 import React from 'react';
 import LogoFooterImage from "../../../assets/Img/space_neo_logo_footer.svg";
-import "./LogoFooter.css"
 
 const LogoFooter = () => {
     return (
