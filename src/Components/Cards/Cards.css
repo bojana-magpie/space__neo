@@ -5,6 +5,8 @@
     padding: 100px 126px;
     display: flex;
     flex-direction: column;
+    background-position: center;
+    margin: 0 auto;
 }
 
 .cards_flex {

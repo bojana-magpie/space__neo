@@ -4,8 +4,8 @@ import Banner from "./Components/Banner/Banner";
 import React from "react";
 import GetInvolved from "./Components/GetInvolved/GetInvolved";
 import Cards from "./Components/Cards/Cards";
-import FAQSection from "./Components/FAQ/FAQSection"
 import FooterWrapper from "./Components/Footer/FooterWrapper";
+import FAQSectionWrapper from "./Components/FAQ/FAQSectionWrapper";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         <Banner/>
         <GetInvolved/>
         <Cards/>
-        <FAQSection/>
+        <FAQSectionWrapper/>
         <FooterWrapper/>
     </div>
   );
