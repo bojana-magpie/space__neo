@@ -1,0 +1,22 @@
+.menu_footer li {
+    display: inline;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 1.8px;
+}
+
+.menu_footer li:last-child {
+    font-weight: lighter;
+    margin-right: 0;
+}
+
+.menu_footer li a {
+    color: var(--black);
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.menu_footer {
+    margin-right: 6em;
+}
+

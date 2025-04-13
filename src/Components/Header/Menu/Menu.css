@@ -2,12 +2,16 @@
     display: inline;
     font-weight: bold;
     font-size: 1.125em;
+    margin-right: 2.90625em;
+}
+
+.menu li:last-child {
+    margin-right: 0;
 }
 
 .menu li a {
     color: var(--white);
     text-decoration: none;
-    margin-right: 2.90625em;
 }
 
 .menu {

@@ -41,3 +41,13 @@
 .p_infobox_2 {
     margin-bottom: 36px;
 }
+
+h4 {
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    letter-spacing: -0.01em;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 0;
+}
