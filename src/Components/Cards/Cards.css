@@ -1,8 +1,8 @@
 .cards_white_section {
-    width: 1192px;
+    width: 74.5em;
     background-color: var(--grey);
     color: var(--black);
-    padding: 100px 126px;
+    padding: 6.25em 7.875em;
     display: flex;
     flex-direction: column;
     background-position: center;
@@ -21,10 +21,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 60px;
+    margin-top: 3.75em;
 }
 
 .cards_wrapper {
     width: 100%;
     background-color: var(--grey);
+}
+
+.card_title {
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: bold;
+    font-size:  22px;
+    letter-spacing: 0.03em;
 }

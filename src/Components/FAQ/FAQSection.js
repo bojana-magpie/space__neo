@@ -5,14 +5,24 @@ import FAQ from "../FAQ/FAQ_child/Faq"
 
 const FAQSection = () => {
     const faqs = [
-        { title: "WHEN IS THE NEXT LAUNCH?", content: "Lorem ipsum text as placeholder for this section of text. To be filled in later with something meaningful and space themed. Lorem ipsum text as placeholder for this section of text. To be filled in later with something meaningful and space themed. Lorem ipsum text as placeholder for this section of text. To be filled in later with something meaningful and space themed.\n" +
-                "\n" +
-                "Lorem ipsum text as placeholder for this section of text. To be filled in later with something meaningful and space themed. Lorem ipsum text as placeholder for this section of text. To be filled in later with something meaningful and space themed.." },
-        { title: "IS THERE A RIDESHARE?", content: "Lorem ipsum text as placeholder for this section of text. To be filled in later with something meaningful and space themed. Lorem ipsum text as placeholder for this section of text. To be filled in later with something meaningful and space themed. Lorem ipsum text as placeholder for this section of text. To be filled in later with something meaningful and space themed.\n" +
-                "\n" +
-                "Lorem ipsum text as placeholder for this section of text. To be filled in later with something meaningful and space themed. Lorem ipsum text as placeholder for this section of text. To be filled in later with something meaningful and space themed." },
-        { title: "HOW LONG IS EACH TRIP?", content: "Lorem ipsum text as placeholder for this section of text. To be filled in later with something meaningful and space themed. Lorem ipsum text as placeholder for this section of text. To be filled in later with something meaningful and space themed. Lorem ipsum text as placeholder for this section of text. To be filled in later with something meaningful and space themed."}
+        {
+            title: "WHEN IS THE NEXT LAUNCH?",
+            content: `Lorem ipsum text as placeholder for this section of text. To be filled in later with something meaningful and space themed. Lorem ipsum text as placeholder for this section of text. To be filled in later with something meaningful and space themed. Lorem ipsum text as placeholder for this section of text. To be filled in later with something meaningful and space themed.
+
+Lorem ipsum text as placeholder for this section of text. To be filled in later with something meaningful and space themed. Lorem ipsum text as placeholder for this section of text. To be filled in later with something meaningful and space themed..`
+        },
+        {
+            title: "IS THERE A RIDESHARE?",
+            content: `Lorem ipsum text as placeholder for this section of text. To be filled in later with something meaningful and space themed. Lorem ipsum text as placeholder for this section of text. To be filled in later with something meaningful and space themed. Lorem ipsum text as placeholder for this section of text. To be filled in later with something meaningful and space themed.
+
+Lorem ipsum text as placeholder for this section of text. To be filled in later with something meaningful and space themed. Lorem ipsum text as placeholder for this section of text. To be filled in later with something meaningful and space themed.`
+        },
+        {
+            title: "HOW LONG IS EACH TRIP?",
+            content: `Lorem ipsum text as placeholder for this section of text. To be filled in later with something meaningful and space themed. Lorem ipsum text as placeholder for this section of text. To be filled in later with something meaningful and space themed. Lorem ipsum text as placeholder for this section of text. To be filled in later with something meaningful and space themed.`
+        }
     ];
+
 
     return (
         <div className="faq_section">

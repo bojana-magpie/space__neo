@@ -1,6 +1,6 @@
 .space_rocket_involved {
-    height: 794px;
-    margin: 124px auto;
+    height: 49.625em;
+    margin: 7.75em auto;
     position: relative;
     background-size: cover;
     background-position: center;
@@ -9,45 +9,46 @@
     align-items: center;
     justify-content: flex-start;
     overflow: hidden;
-    max-width: 1192px;
+    max-width: 74.5em;
 }
 
 .overlay_text {
     position: absolute;
-    font-size: 440px;
+    font-size: 27.5em;
     font-family: 'Anton', sans-serif;
     letter-spacing: -0.01em;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.25);
     width: 100%;
-    margin-left: -20px;
     margin-right: 0;
+    text-align: center;
+    margin-left: -0.04em;
 }
 
 .info_box {
     background-color: rgba(0, 40, 80, 0.5);
-    padding: 30px;
+    padding: 1.875em;
     z-index: 2;
-    width: 480px;
-    height: 638px;
+    width: 30em;
+    height: 39.875em;
     margin-left: auto;
-    margin-right: 120px;
+    margin-right: 7.5em;
+    margin-bottom: 2.25em;
 }
 
 .p_infobox_1 {
-    margin-bottom: 36px;
+    margin-bottom: 2.25em;
 }
 
 .p_infobox_2 {
-    margin-bottom: 36px;
+    margin-bottom: 2.25em;
 }
 
 h4 {
     font-family: 'Anton', sans-serif;
     font-weight: 400;
-    font-size: 64px;
+    font-size: 4em;
     letter-spacing: -0.01em;
-    margin-top: 50px;
-    margin-bottom: 20px;
     padding: 0;
+    margin-bottom: 20px;
 }

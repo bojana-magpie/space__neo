@@ -1,6 +1,6 @@
 .menu li {
     display: inline;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 1.125em;
     margin-right: 2.90625em;
     font-family: "Open Sans Condensed", sans-serif;
@@ -16,9 +16,9 @@
 }
 
 .logo_image {
-    margin-left: 28px;
+    margin-left: 1.75em;
 }
 
 .menu {
-    margin-right: 28px;
+    margin-right: 1.75em;
 }

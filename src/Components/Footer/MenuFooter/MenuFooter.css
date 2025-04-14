@@ -1,10 +1,10 @@
 .menu_footer li {
     display: inline;
-    font-size: 18px;
-    letter-spacing: 1.8px;
+    font-size: 1.125em;
+    letter-spacing: 0.1125em;
     font-family: "Open Sans Condensed", sans-serif;
     font-weight: bold;
-    margin-right: 50px;
+    margin-right: 3.125em;
 }
 
 .menu_footer li:last-child {

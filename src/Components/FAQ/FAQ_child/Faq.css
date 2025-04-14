@@ -1,27 +1,28 @@
 .faq_div {
-    margin-right: 125px;
-    margin-left: 125px;
-    margin-bottom: 140px;
+    margin-right: 7.8125em;
+    margin-left: 7.8125em;
+    margin-bottom: 8.75em;
 }
 
 .h4_faq {
-    margin-top: -50px;
     padding: 0;
-    margin-left: 125px;
+    margin-left: 124px;
+    margin-top: 0;
+    margin-bottom: -40px;
 }
 
 h6 {
     font-weight: 400;
     color: white;
-    font-size: 34px;
-    letter-spacing: 3.4px;
-    margin-bottom: 30px;
-    margin-top: 70px;
+    font-size: 2.125em;
+    letter-spacing: 0.2125em;
+    margin-bottom: 1.875em;
+    margin-top: 4.375em;
 }
 
 .p_faq {
-    font-size: 14px;
-    line-height: 25px;
-    letter-spacing: 1.4px;
+    font-size: 0.875em;
+    line-height: 1.5625em;
+    letter-spacing: 0.0875em;
     font-weight: 400;
 }

@@ -1,6 +1,6 @@
 .space_rocket_img {
     width: 100%;
-    height: 1096px;
+    height: 68.5em;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -12,13 +12,15 @@
 }
 
 .banner_content {
+    max-width: 75.9375em;
     width: 100%;
-    max-width: 1215px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     text-align: left;
-    padding-left: 0;
+    padding-left: 1.75em;
 }
+
+

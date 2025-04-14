@@ -1,10 +1,10 @@
 .one_card {
-    width: 370px;
-    height: 631px;
+    width: 23.125em;
+    height: 39.4375em;
     background-color: var(--white);
     position: relative;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
-    margin-right: 40px;
+    margin-right: 2.5em;
 }
 
 .one_card:last-child {
@@ -16,15 +16,15 @@
 }
 
 .date {
-    font-size: 16px;
-    letter-spacing: 0.8px;
+    font-size: 1em;
+    letter-spacing: 0.05em;
     font-weight: 800;
     position: absolute;
-    width: 178px;
-    height: 46px;
+    width: 11.125em;
+    height: 2.875em;
     background-color: var(--white);
-    bottom: -15px;
-    left: -1px;
+    bottom: -0.9375em;
+    left: -0.0625em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,20 +32,20 @@
 
 h5 {
     font-weight: 700;
-    font-size: 22px;
-    letter-spacing: 0.66px;
-    margin-bottom: 15px;
-    margin-top: 30px;
+    font-size: 1.375em;
+    letter-spacing: 0.04125em;
+    margin-bottom: 0.9375em;
+    margin-top: 1.875em;
 }
 
 .p_card {
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 1.4px;
+    font-size: 0.875em;
+    line-height: 1.5em;
+    letter-spacing: 0.0875em;
     font-weight: 400;
 }
 
 .card_content {
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
 }
