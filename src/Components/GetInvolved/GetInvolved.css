@@ -53,6 +53,7 @@ h4 {
     margin-bottom: 20px;
 }
 
+/* tablet */
 @media (max-width: 857px) {
     .overlay_text {
         width: 100%;
@@ -64,5 +65,27 @@ h4 {
     }
     .info_box {
         margin-right: 0;
+    }
+}
+
+/* mobile phone */
+@media (max-width: 791px) {
+    .overlay_text {
+        display: none;
+    }
+    .space_rocket_involved {
+        margin-top: 0;
+        height: auto;
+    }
+    .info_box {
+        width: 100%;
+        margin-top: 600px;
+        margin-bottom: 0;
+        box-sizing: border-box;
+    }
+    h4 {
+        margin-top: 30px;
+        font-size: 62px;
+        letter-spacing: -0.01em;
     }
 }

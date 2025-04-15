@@ -40,3 +40,17 @@ footer .orange-line {
         gap: 1px;
     }
 }
+
+@media (max-width: 791px) {
+    .menu_list_footer {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer {
+        height: auto;
+    }
+    .footer_inner {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}

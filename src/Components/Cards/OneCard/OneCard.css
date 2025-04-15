@@ -79,3 +79,13 @@ h5 {
         margin-right: 0;
     }
 }
+
+@media (max-width: 857px) {
+    .one_card {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .btn_card {
+        display: none;
+    }
+}

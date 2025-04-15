@@ -67,3 +67,12 @@
        display: none;
    }
 }
+
+@media (max-width: 857px) {
+    .btn_black_div {
+        display: inline-block;
+        margin-top: 0;
+        margin-bottom: 80px;
+    }
+}
+

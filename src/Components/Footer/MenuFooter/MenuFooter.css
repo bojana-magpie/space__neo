@@ -23,3 +23,12 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+@media (max-width: 791px) {
+    .menu_footer li {
+        margin-bottom: 30px;
+    }
+    .logo_image_footer {
+        margin-bottom: 30px;
+    }
+}
