@@ -7,7 +7,7 @@ const OneCard = (props) => {
         <>
             <div className="one_card">
                 <div className="img_date">
-                    <img src={image} alt="Card 1"/>
+                    <img src={image} alt="Card 1" className="card_image"/>
                     <p className="date">{date}</p>
                 </div>
                 <div className="card_content">

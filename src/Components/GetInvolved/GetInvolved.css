@@ -52,3 +52,17 @@ h4 {
     padding: 0;
     margin-bottom: 20px;
 }
+
+@media (max-width: 857px) {
+    .overlay_text {
+        width: 100%;
+        font-size: 290px;
+    }
+    .space_rocket_involved {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .info_box {
+        margin-right: 0;
+    }
+}

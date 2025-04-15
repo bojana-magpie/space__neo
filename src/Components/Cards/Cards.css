@@ -13,8 +13,10 @@
 
 .cards_flex {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+
 }
 
 .btn_black_div {
@@ -34,4 +36,34 @@
     font-weight: bold;
     font-size:  22px;
     letter-spacing: 0.03em;
+}
+
+@media (max-width: 857px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    .cards_white_section {
+        width: 100%;
+        padding: 2em 1em;
+    }
+
+    .cards_flex {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+        justify-content: space-around;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .one_card {
+        width: calc(50% - 0.5em);
+        margin-bottom: 1em;
+    }
+
+   .btn_black_div {
+       display: none;
+   }
 }

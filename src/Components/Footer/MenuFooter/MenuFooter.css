@@ -5,6 +5,7 @@
     font-family: "Open Sans Condensed", sans-serif;
     font-weight: bold;
     margin-right: 3.125em;
+    margin-bottom: 10px;
 }
 
 .menu_footer li:last-child {
@@ -18,11 +19,7 @@
     text-decoration: none;
 }
 
-.logo_image_footer {
-    margin-left: 1.75em;
+.menu_list_footer {
+    display: flex;
+    flex-wrap: wrap;
 }
-
-.menu_footer {
-    margin-right: 1.75em;
-}
-

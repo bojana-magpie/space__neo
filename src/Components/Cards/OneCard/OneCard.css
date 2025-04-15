@@ -4,7 +4,20 @@
     background-color: var(--white);
     position: relative;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
-    margin-right: 2.5em;
+    margin: 0 1.25em 2em 0;
+}
+
+.btn_card {
+    background-color: transparent;
+    box-shadow: none;
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card_image {
+    width: 100%;
 }
 
 .one_card:last-child {
@@ -48,4 +61,21 @@ h5 {
 .card_content {
     margin-left: 2.5em;
     margin-right: 2.5em;
+}
+
+@media (max-width: 857px) {
+    .btn_card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 23.125em;
+        height: 39.4375em;
+        margin: 0 1.25em 2em 0;
+    }
+    .one_card:last-child {
+        margin: 0 1.25em 2em 0;
+    }
+    .one_card:nth-child(2n) {
+        margin-right: 0;
+    }
 }

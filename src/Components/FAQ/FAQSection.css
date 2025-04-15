@@ -11,3 +11,10 @@
     display: flex;
     justify-content: center;
 }
+
+.moon_phases_image {
+    width: 100%;
+    max-width: 1440px;
+    height: auto;
+    display: block;
+}

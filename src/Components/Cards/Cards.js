@@ -23,8 +23,13 @@ const Cards = () => {
                          date="May 22, 2021"
                          title={<span className="card_title">Jupiter Mission is moving ahead of schedule</span>}
                          content="Lorem ipsum text as placeholder for this section of text. To be filled in later with something meaningful and space themed. Lorem ipsum text as placeholder for this section of text. "/>
+                <div className="btn_black_div one_card btn_card tablet_only">
+                    <div className="btn_card_inner">
+                        <Button title="SEE ALL NEWS UPDATES" link="seeallnewsupdates" shape="btn_black"/>
+                    </div>
+                </div>
             </div>
-            <div className="btn_black_div">
+            <div className="btn_black_div desktop_only">
                 <Button title="SEE ALL NEWS UPDATES" link="seeallnewsupdates" shape="btn_black"/>
             </div>
         </div>

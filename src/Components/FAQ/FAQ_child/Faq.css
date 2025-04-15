@@ -26,3 +26,21 @@ h6 {
     letter-spacing: 0.0875em;
     font-weight: 400;
 }
+
+@media (max-width: 857px) {
+    .h4_faq {
+        margin-left: 42px;
+        margin-right: 42px;
+    }
+    .faq_div {
+        margin-left: 42px;
+        margin-right: 42px;
+        margin-bottom: 0;
+    }
+    .faq_div:last-child {
+        margin-bottom: 127px;
+    }
+    h6 {
+        margin-top: 55px;
+    }
+}
