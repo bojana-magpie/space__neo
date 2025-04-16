@@ -1,5 +1,5 @@
 .space_rocket_involved {
-    height: 49.625em;
+    min-height: 49.625em;
     margin: 7.75em auto;
     position: relative;
     background-size: cover;
@@ -30,7 +30,8 @@
     padding: 1.875em;
     z-index: 2;
     width: 30em;
-    height: 39.875em;
+    min-height: 39.875em;
+    height: auto;
     margin-left: auto;
     margin-right: 7.5em;
     margin-bottom: 2.25em;
@@ -74,18 +75,24 @@ h4 {
         display: none;
     }
     .space_rocket_involved {
-        margin-top: 0;
-        height: auto;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100%;
+        background-position: left top;
     }
     .info_box {
         width: 100%;
+        box-sizing: border-box;
         margin-top: 600px;
         margin-bottom: 0;
-        box-sizing: border-box;
+        padding: 0;
     }
     h4 {
         margin-top: 30px;
         font-size: 62px;
         letter-spacing: -0.01em;
+    }
+    .infobox_content {
+        padding: 65px 35px 65px 15px;
     }
 }

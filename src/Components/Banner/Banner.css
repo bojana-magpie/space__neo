@@ -26,7 +26,7 @@
 /* mobile phone */
 @media (max-width: 791px) {
     .space_rocket_img {
-        height: 733px;
+        height: 652px;
     }
     h2 {
         font-size: 44px;
@@ -35,8 +35,7 @@
         margin-top: 40px;
     }
     .banner_content {
-        padding-left: 18px;
-        padding-right: 18px;
+        padding: 0 14px;
     }
     h1 {
         line-height: 72px;

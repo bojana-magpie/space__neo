@@ -14,3 +14,9 @@
     color: var(--white);
     text-decoration: none;
 }
+
+@media (max-width: 791px) {
+    .logo_image {
+        width: 152px;
+    }
+}

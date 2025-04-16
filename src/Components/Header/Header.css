@@ -26,3 +26,9 @@
     .header .menu {display: none;}
     .hamburger {display: block;}
 }
+
+@media (max-width: 791px) {
+    .header_inner {
+        padding: 0 14px;
+    }
+}
